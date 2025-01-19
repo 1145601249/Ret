@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقع عن الحمض النووي (DNA)</title>
+   
+<style>
+        /* تنسيق الصفحة */
+        
+        
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            direction: rtl;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.container {
+            padding: 20px;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+        .button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+        }.button:hover {
+            background-color: #45a049;
+        }
+
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+
+
+bottom: 0;
+        }
+
+        /* نافذة منبثقة */
+        #popup {
+            display: none;
+            position: fixed;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            background-color: white;
+            padding: 30px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            z-index: 1000;
+        }
+
+        #popup h2 {
+            margin-top: 0;
+        }
+
+        #popup button {
+            background-color: #f44336;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+        #popup button:hover {
+            background-color: #d32f2f;
+        }
+
+        #overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 999;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- رأس الموقع -->
+    <header>
+        <h1 style="color: #003602; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">موقع عن الحمض النووي (DNA)</h1>
+        <p style="color: #003602;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;"> <b> أهمية وتركيب ووظائف الحمض النووي في الكائنات الحية. </b></p>
+    </header>
+
+    <!-- شريط التنقل -->
+    <nav>
+        <a href="#about">عن الحمض النووي</a>
+        <a href="#structure">التركيب</a>
+        <a href="#functions">الوظائف</a>
+        <a href="#applications">التطبيقات</a>
+    </nav>
+
+    <!-- المحتوى الرئيسي -->
+    <div class="container">
+        <section id="about" class="section">
+            <h2 style="color: #14e47c; font-size: 40px ;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">عن الحمض النووي</h2>
+            <p style="color: #003602;font-size: 30px;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;"  >الحمض النووي هو جزيء يحتوي على المعلومات الوراثية للكائنات الحية. هو الأساس الذي يعبر عن الصفات الوراثية من جيل إلى  جيل وهي جزيئات مسؤوله عن تخزين وترجمة الملعلومات الوراثية في الكائنات  الحية 
+                ويوجد منها نوعان هما :الحمض النووي الرايبوزي المنقوص الاكسجين DNA والحمض النووي الرايبوزي RNA ويسمى ايضا الحمض النووي المادة الوراثية .</p>
+        </section>
+
+        <section id="structure" class="section">
+            <h2 style="color: #14e673; font-size: 40px ;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;"> التركيب </h2>
+            
+            <p style="color: #003602;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-size: 30px;">يتكون الحمض النووي من جزيئات تسمى النيوكليوتيدات. هذه النيوكليوتيدات تتكون من سكر، فوسفات، وقاعدة نيتروجينية. يتخذ الحمض النووي شكل حلزون مزدوج، مع القواعد النيتروجينية التي تربط السلسلتين  .</p>
+        </section>
+
+        <section id="functions" class="section">
+            <h2 style="color: #14e673;font-size: 40px ;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">وظائف الحمض النووي</h2>
+            <p style="color: #003602;font-size: 30px;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">الحمض النووي يلعب دورًا رئيسيًا في تكوين البروتينات التي يحتاجها الجسم. كما أنه يحمل التعليمات الوراثية التي تحدد الصفات الوراثية للكائن الحي ويلعب دور مهم في الخلايا وهي التضاعف وتشفير المعلومات والطفرة واعادة التركيب والتعبير الجيني .</p>
+        </section>
+
+        <section id="applications" class="section">
+            <h2 style="color: #14e673; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: 40px ;">التطبيقات</h2>
+            <p style="color: #003602;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-size: 30px;">الحمض النووي يستخدم في العديد من المجالات مثل الطب والوراثة والزراعة. يمكن استخدامه في تشخيص الأمراض الوراثية، تعديل الجينات، وتطوير المحاصيل المعدلة وراثيا ويمكن ايضا تطبيق البصمات الوراثية في حل القضايا الجنائية وايضا في الطب الشرعي في التحقيقات الجنائية .</p>
+            <button class="button" onclick="showPopup()">انقر هنا لمعرفة المزيد</button>
+        </section>
+    </div>
+
+    <!-- نافذة منبثقة -->
+    <div id="overlay"></div>
+    <div id="popup">
+        <h2>معلومات إضافية عن الحمض النووي</h2>
+        <p>الحمض النووي ليس فقط موجودًا في البشر، بل هو موجود في جميع الكائنات الحية. وتساعد الدراسات على فهم أعمق للتطور الوراثي وكيفية التحكم في الصفات الوراثية.</p>
+        <button onclick="closePopup()">إغلاق</button>
+    </div>
+
+    <!-- تذييل الموقع -->
+    <div class="footer">
+    </div>
+
+    <!-- JavaScript لتفعيل التفاعل -->
+    <script>
+        // وظيفة لعرض النافذة المنبثقة
+        function showPopup() {
+            document.getElementById('overlay').style.display = 'block';
+            document.getElementById('popup').style.display = 'block';
+        }
+
+        // وظيفة لإغلاق النافذة المنبثقة
+        function closePopup() {
+            document.getElementById('overlay').style.display = 'none';
+            document.getElementById('popup').style.display = 'none';
+        }
+    </script>
+
+</body>
+</html>
